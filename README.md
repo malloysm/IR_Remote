@@ -8,6 +8,15 @@ Then, the example 'IRsendDemo.ino' was modified to send the codes when the respe
 
 Click the image below to see it in action:
 [![Watch the video](https://img.youtube.com/vi/pXduAdaQpwE/maxresdefault.jpg)](https://youtu.be/pXduAdaQpwE)
+The breadboard received 5V from the Arduino's 5V pin, and the Arduino was plugged into an outlet. An ideal solution would be battery powered with its own power regulator on the breadboard.
 
-Cost (Single, Bulk): (via Digikey)
-- ATMega328 - $1.96, $1.63 [ATMega328](https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328-PU/ATMEGA328-PU-ND/2271026?utm_adgroup=Integrated%20Circuits&slid=&gclid=CjwKCAjwycfkBRAFEiwAnLX5IbYOugaeojOU2ruLwrsiWKXqPkXXbdffJs21pTgB0yrOJuKhwCXKFBoCX1sQAvD_BwE)
+Cost (Single, Bulk):
+- [ATMega328](https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328-PU/ATMEGA328-PU-ND/2271026?utm_adgroup=Integrated%20Circuits&slid=&gclid=CjwKCAjwycfkBRAFEiwAnLX5IbYOugaeojOU2ruLwrsiWKXqPkXXbdffJs21pTgB0yrOJuKhwCXKFBoCX1sQAvD_BwE) - $1.96, $1.63 (programmed and bootloaded through Arduino)
+- [IR LED](https://www.digikey.com/product-detail/en/everlight-electronics-co-ltd/IR1503/1080-1071-ND/2675562?utm_adgroup=Optoelectronics&slid=&gclid=CjwKCAjwycfkBRAFEiwAnLX5IS7CSjoaYg7-fwJFPfZQKC2Nz7VPsAomxwRiwM927oJL7N877brh-xoCBfQQAvD_BwE) - $0.41, $0.06
+- [Push Buttons](https://www.banggood.com/100pcs-Mini-Micro-Momentary-Tactile-Tact-Switch-Push-Button-DIP-P4-Normally-Open-p-917570.html?gmcCountry=US&currency=USD&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=frank&utm_campaign=pla-highprofit-us&gclid=CjwKCAjwycfkBRAFEiwAnLX5IflgVWUfjQEboyuEHEkxOV2Ku9MSCvD4XCcltioiRxP4TwzeOErBJxoCQyAQAvD_BwE&cur_warehouse=CN) - $x.xx, $0.02
+- Resistors, Wires - N/A
+
+Power:
+By implementing interrupts in the code, the ATMega328 chip could go into sleep mode while not receiving button presses. According to the datasheet, normal operation consumes 0.2mA and power-save mode consumes 0.75uA. The IRLED has a max forward current of 100mA, typical of 20mA. 
+
+AA batteries provide about 2000mAh. Not considering leakage currents and other components, the batteries will last a lifetime when the device is in sleep mode. When a button is pressed the LED will consume 20mA for the duration, which corresponds to 100hrs of button presses.
