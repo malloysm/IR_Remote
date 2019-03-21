@@ -10,4 +10,4 @@ Click the image below to see it in action:
 
 
 Cost (Single, Bulk): (via Digikey)
-- ATMega328 - $1.96, $1.63
+- ATMega328 - $1.96, $1.63 https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328-PU/ATMEGA328-PU-ND/2271026?utm_adgroup=Integrated%20Circuits&slid=&gclid=CjwKCAjwycfkBRAFEiwAnLX5IbYOugaeojOU2ruLwrsiWKXqPkXXbdffJs21pTgB0yrOJuKhwCXKFBoCX1sQAvD_BwE
