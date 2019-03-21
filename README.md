@@ -7,7 +7,7 @@ The example 'IRrecvDump.ino' included in the library was used with a 38kHz IR re
 Then, the example 'IRsendDemo.ino' was modified to send the codes when the respective pushbutton was pressed. 
 
 Click the image below to see it in action:
-
+[![Watch the video](https://img.youtube.com/vi/pXduAdaQpwE/maxresdefault.jpg)](https://youtu.be/pXduAdaQpwE)
 
 Cost (Single, Bulk): (via Digikey)
 - ATMega328 - $1.96, $1.63 https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328-PU/ATMEGA328-PU-ND/2271026?utm_adgroup=Integrated%20Circuits&slid=&gclid=CjwKCAjwycfkBRAFEiwAnLX5IbYOugaeojOU2ruLwrsiWKXqPkXXbdffJs21pTgB0yrOJuKhwCXKFBoCX1sQAvD_BwE
