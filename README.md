@@ -7,7 +7,7 @@ The example 'IRrecvDump.ino' included in the library was used with a 38kHz IR re
 Then, the example 'IRsendDemo.ino' was modified to send the codes when the respective pushbutton was pressed. 
 
 Click the image below to see it in action:
-[![Watch the video](https://img.youtube.com/vi/pXduAdaQpwE/maxresdefault.jpg)](https://youtu.be/pXduAdaQpwE)
+[![Watch the video](https://img.youtube.com/vi/-U3yf76YXxw/maxresdefault.jpg)](https://youtu.be/-U3yf76YXxw)
 The breadboard received 5V from the Arduino's 5V pin, and the Arduino was plugged into an outlet. An ideal solution would be battery powered with its own power regulator on the breadboard.
 
 Cost (Single, Bulk):
