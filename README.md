@@ -17,6 +17,7 @@ Cost (Single, Bulk):
 - Resistors, Wires - N/A
 
 Power:
+
 By implementing interrupts in the code, the ATMega328 chip could go into sleep mode while not receiving button presses. According to the datasheet, normal operation consumes 0.2mA and power-save mode consumes 0.75uA. The IRLED has a max forward current of 100mA, typical of 20mA. 
 
 AA batteries provide about 2000mAh. Not considering leakage currents and other components, the batteries will last a lifetime when the device is in sleep mode. When a button is pressed the LED will consume 20mA for the duration, which corresponds to 100hrs of button presses.
